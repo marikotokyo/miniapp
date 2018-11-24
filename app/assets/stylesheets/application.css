@@ -1,0 +1,78 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+html{
+  height:100%;
+}
+
+.pagination{
+  background-color: #f48fb1;
+  text-align: center;
+}
+
+footer p{
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+
+
+}
+
+.contents{
+  background-image: url(http://jp.royal-hawaiian.com/Images/Home/Slider/02.jpg);
+  background-size: cover;
+  margin-bottom: 0;
+  height: 100%;
+  overflow: scroll;
+}
+
+footer{
+
+  bottom: 0px;
+  background-color: #f48fb1;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.card{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-body{
+  margin: 20px;
+}
+
+.nanka{
+  background: rgba(255,255,255,0.6);
+  height: 100%;
+  overflow: scroll;
+}
+
+.show-head{
+  height: 100%;
+}
+
+.show-hako{
+  margin: 20px auto;
+}
+
+.field{
+  font-weight: bold;
+}

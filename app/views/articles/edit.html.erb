@@ -1,0 +1,11 @@
+<div class="contents row">
+  <div class="nanka">
+    <%= form_for(@article, method: :patch ) do %>
+      <h3>
+        編集する
+      </h3>
+      <textarea cols="30" name="text" placeholder="text" rows="10"><%= @article.text %></textarea>
+      <input type="submit" value="SENT">
+    <% end %>
+  </div>
+  </div>

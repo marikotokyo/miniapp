@@ -1,0 +1,9 @@
+<div class="contents row" >
+  <div class="nanka">
+    <p><%= @nickname %>さんの投稿一覧</p>
+    <% @articles.each do |article| %>
+      <%= render partial: "articles/article", locals: { article: article } %>
+    <% end %>
+    <%= paginate(@articles) %>
+  </div>
+</div>

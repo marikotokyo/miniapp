@@ -1,0 +1,10 @@
+<div class="contents row">
+  <div class="nanka">
+  <% @articles.each do |article| %>
+   <%= render partial: "article", locals: { article: article } %>
+  <% end %>
+</div>
+</div>
+<div>
+<%= paginate(@articles) %>
+</div>
